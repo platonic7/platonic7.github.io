@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>fdgfdl theme</title>
+  <meta name="description" content="Jekyll">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/jekyll/update/2015/09/27/First%20Post.html">
+  <link rel="alternate" type="application/rss+xml" title="Hip Hop Life" href="http://yourdomain.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Hip Hop Life</a>
+
+    <nav class="site-nav">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">fdgfdl theme</h1>
+    <p class="post-meta">Sep 27, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="jekyll">Jekyll</h2>
+
+<p><img src="http://wolfslittlestore.be/wp-content/uploads/2013/07/jekyll.png" alt="jekyll" /></p>
+
+<p><a href="http://jekyllrb.com/">Jekyll</a>은 static websites 생성 프레임워크이다. <code>Ruby</code>로 만들어진 이 것은 <strong>Markdown</strong> 파일을 <code>_posts</code> 디렉토리에 생성하는 것 만으로 멋진 static website를 만들어준다. Markdown을 사용하는 개발자에게 반가운 이야기일 것이다. 우리도 Markdown을 표준 document format으로 정하고 난 뒤에 Jekyll을 사용해서 Pages를 만들고 기존의 블로그를 이전하고 있다.ndex.html 파일을 git push 하는 것 만으로도 만들 수 있고, 다른 static website generator framework를 사용해도 된다. GitHub에서는 공식적인 Database를 지원하고 있지 않기 때문에 static website(HTML 파일)을 사용해야 한다.</p>
+
+<h2 id="subheading">Subheading</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at mauris ante. Cras sit amet porta quam. Donec eu gravida elit. Sed a diam eget sem lacinia maximus vel et elit. Nullam id egestas nulla. Duis dapibus at quam eu dapibus. Maecenas ullamcorper placerat eros, eu posuere enim bibendum eget. Phasellus mollis enim molestie tortor aliquam, nec auctor ligula <code>fringilla</code>.</p>
+
+<h2 id="subheading-1">Subheading</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at mauris ante. Cras sit amet porta quam. Donec eu gravida elit. Sed a diam eget sem lacinia maximus vel et elit. Nullam id egestas nulla. Duis dapibus at quam eu dapibus. Maecenas ullamcorper placerat eros, eu posuere enim bibendum eget. Phasellus mollis enim molestie tortor aliquam, nec auctor ligula <code>fringilla</code>.</p>
+
+<h2 id="sample-code">Sample Code</h2>
+
+<div class="highlight"><pre><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="p">(</span>
+    <span class="s">&quot;net/http&quot;</span>
+<span class="p">)</span>
+
+<span class="kd">func</span> <span class="nx">response</span><span class="p">(</span><span class="nx">rw</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">request</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">rw</span><span class="p">.</span><span class="nx">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&quot;Hello world.&quot;</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">http</span><span class="p">.</span><span class="nx">HandleFunc</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">,</span> <span class="nx">response</span><span class="p">)</span>
+    <span class="nx">http</span><span class="p">.</span><span class="nx">ListenAndServe</span><span class="p">(</span><span class="s">&quot;:3000&quot;</span><span class="p">,</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="p">}</span></code></pre></div>
+
+  </article>
+
+</div>
+
+    </div>
+
+  </body>
+
+</html>
